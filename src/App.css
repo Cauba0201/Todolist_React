@@ -48,3 +48,24 @@ h1 {
   padding: 0.55rem;
   cursor: pointer;
 }
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+.todo-inpu::placeholder {
+  color: #ffffff4d;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
